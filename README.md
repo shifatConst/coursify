@@ -1,6 +1,6 @@
 # COURSIFY-TASK
 
-[Live Demo](https://manush-tech.web.app/)
+[Live Demo](https://coursify-task.netlify.app/)
 
 ## Project Set Up
 
