@@ -7,15 +7,15 @@ const Services = () => {
     }, [])
     // console.log(services);
     return (
-        <div>
-            <h1>What We Provides</h1>
-            <div className="row">
+        <div className="container">
+            <h1>Our Services</h1>
+            <div className="row gy-3 ">
                 {
                     services.map(service => 
-                        <div className="col-sm-4 text-center">
-                            <img src={service.image} style={{ hight: "300px", width: "300px" }} alt="" />
+                        <div key={service.id} className="col-sm-4 card text-center border shadow p-5" style={{style:"18rem"}}>
+                            <img src={service.image} className="card-img-top"style={{ hight: "300px", width: "300px" }} alt="" />
                             <h1>{service.name}</h1>
-                            <p>{service.description}</p>
+                            <p className="card-text">{service.description}</p>
                         </div>)
                 }
             </div>
