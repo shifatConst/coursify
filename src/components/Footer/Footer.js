@@ -25,12 +25,12 @@ const Footer = () => {
         {name: "Test" , link: "/checkup"},
     ]
     const services = [
-        {name: "Residential Interior" , link: "/emergency"},
-        {name: "Residential Exterior" , link: "/checkup"},
-        {name: "Commercial Painting" , link: "/personal-treatment"},
-        {name: "Wallpaper Removal" , link: "/tooth-extract"},
-        {name: "Water Damage Repair" , link: "/checkup"},
-        {name: "Drywall Installation" , link: "/checkup"},
+        {name: "Hiring" , link: "/Hiring"},
+        {name: "Onboarding" , link: "/Onboarding"},
+        {name: "Payroll Management" , link: "/Payroll-Management"},
+        {name: "Insurance" , link: "/Insurance"},
+        {name: "Loan" , link: "/Loan"},
+        {name: "Health" , link: "/Health"},
     ]
     return (
         <footer className="footer-area clear-both">

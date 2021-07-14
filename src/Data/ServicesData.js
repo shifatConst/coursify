@@ -12,27 +12,27 @@ const services = [{
   image: image1
 }, {
   id: 2,
-  name: "Hiring",
+  name: "Onboarding",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quam voluptate asperiores, porro repellat natus ut voluptatum provident reiciendis",
   image: image2
 }, {
   id: 3,
-  name: "Hiring",
+  name: "Payroll Management",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quam voluptate asperiores, porro repellat natus ut voluptatum provident reiciendis",
   image: image3
 }, {
   id: 4,
-  name: "Hiring",
+  name: "Insurance",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quam voluptate asperiores, porro repellat natus ut voluptatum provident reiciendis",
   image: image4
 }, {
   id: 5,
-  name: "Hiring",
+  name: "Loan",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quam voluptate asperiores, porro repellat natus ut voluptatum provident reiciendis",
   image: image5
 }, {
   id: 6,
-  name: "Hiring",
+  name: "Health",
   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quam voluptate asperiores, porro repellat natus ut voluptatum provident reiciendis",
   image: image6
 }]

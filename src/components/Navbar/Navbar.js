@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Navbar.css';
 const Navbar = () => {
     return (
         <div className='container'>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
-                <a className="navbar-brand" href="#home">COURSIFY</a>
+            <nav className="navbar navbar-expand-lg navbar-light p-2 style fixed-top">
+                <a className="navbar-brand text-white" href="#home">COURSIFY</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -12,13 +12,13 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">HOME</a>
+                            <a className="nav-link text-white" href="#home">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#service">SERVICE</a>
+                            <a className="nav-link text-white" href="#service">SERVICE </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#team">TEAMS</a>
+                            <a className="nav-link text-white" href="#home">TEAMS</a>
                         </li>
                     </ul>
 

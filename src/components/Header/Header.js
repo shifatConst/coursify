@@ -4,7 +4,7 @@ import hiring1 from '../../images/hiring1.jpg'
 import hiring2 from "../../images/hiring2.jpg";
 const Header = () => {
     return (
-        <div className="container">
+        <div className="container" id="home">
             <div className="row header-full text-center align-items-center">
                 <div className="col-sm-6 p-5">
                     <h1>Spending too much time on HR, not your business? <br />
@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="col-sm-6">
                     <img src={hiring2} className="shadow rounded" alt="" />
                 </div>
-                <div className="col-sm-6 p-5 ">
+                <div className="col-sm-6 p-5">
                     <h1 className="d-flex justify-content-start mb-3">What We Are Providing</h1>
                     <ul className="mb-5">
                         <li>
